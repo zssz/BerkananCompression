@@ -8,7 +8,7 @@
 import Foundation
 import Compression
 
-@available(iOS 9.0, OSX 10.11, tvOS 9.0, *)
+@available(iOS 9.0, OSX 10.11, tvOS 9.0, watchOS 2.0, *)
 extension Data {
   
   /// Returns compressed data using `algorithm`.

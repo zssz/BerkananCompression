@@ -17,8 +17,5 @@ let package = Package(
     .target(
       name: "BerkananCompression",
       dependencies: []),
-    .testTarget(
-      name: "BerkananCompressionTests",
-      dependencies: ["BerkananCompression"]),
   ]
 )
